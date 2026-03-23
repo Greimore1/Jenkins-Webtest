@@ -25,7 +25,9 @@ pipeline {
         }
     }
 }
-Requirements
+
+```
+## Requirements
 Jenkins installed and running
 Git installed on the Jenkins host
 Network access to GitHub
@@ -34,7 +36,10 @@ Open Jenkins (http://localhost:8090)
 Create a new Pipeline job
 Paste the Jenkinsfile into the pipeline script
 Click Build Now
-Expected result
 
+## Expected result
 The pipeline runs and clones the repository.
 You can verify this in the Console Output or by listing workspace files.
+
+## Purpose
+This project demonstrates the simplest possible Jenkins automation as a starting point for CI pipelines.
