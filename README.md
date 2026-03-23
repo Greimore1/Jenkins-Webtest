@@ -20,7 +20,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/Greimore1/Jenkins-Webtest.git'
+                git branch: 'main', url: 'https://github.com/Greimore1/Jenkins-Webtest.git'
             }
         }
     }
